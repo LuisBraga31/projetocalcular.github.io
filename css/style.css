@@ -54,7 +54,7 @@ header {
 /* MAIN - Seção Calculadora */
 
 main {
-    width: 100%;
+
     background-color: rgb(50, 50, 50);
     height: calc(80vh - 50px);
 }

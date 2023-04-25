@@ -8,54 +8,111 @@ main {
 .calculadora-imc {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: left;
-    gap: 12px;
+    gap: 10px;
     background-color: black;
-    padding: 15px;
+    padding: 25px;
     border-radius: 15px;
     color: #5aed83;
-    width: 300px;
+    width: 400px;
 }
 
 .calculadora-imc h3 {
-    text-align: center;
+    text-align: left;
+    font-size: 25px;
     color: #2bf965;
+    margin-bottom: 10px;
 }
 
 .input-imc {
     display: flex;
+    flex-direction: column;
     justify-content: left;
     gap: 10px;
 }
-
 .input-imc label {
-    width: 40%;
+    font-weight: 500;
+    font-size: 1.1rem;
 }
 
-.input-imc input {
-    width: 60%;
-    padding: 2px;
-    font-size: 12px;
+.input-detail {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3f3f46;
+    padding: 0.3rem;
+    border-radius: 3px;
+    margin-top: 3px;
+}
+
+.input-detail span {
+    padding: 0.5em;
+}
+
+.input-detail input {
+    width: 100%;
+    font-size: 1.3rem;
+    color: #f8fafc;
+    padding: 0 0.5rem;
+    background-color: transparent;
+    border: hidden;    
+}
+
+.input-detail input:focus {
+    outline: 0;
 }
 
 .button-imc {
-    padding-left: 77%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
 }
 
 .button-imc button {
-    padding: 2px 8px;
-    border-radius: 5px;
+    width: 100%;
+    padding: 5px 10px;
+    border-radius: 2px;
     border: none;
     cursor: pointer;
+    background-color: #2bf965;
+    font-size: 16px;
+    font-weight: bolder;
 }
 
-.result-imc {
+.button-imc button:hover {
+    transform: scale(1.05);
+}
+
+.infos-imc {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding: 10px 15px;
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+}
+
+.imc-result {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    justify-content: center;
+    gap: 5px;
+    align-items: center;
 }
 
-.result-imc p {
-    font-size: 14px;
+.imc-result p {
+    font-size: 30px;
+}
+
+.imc-veredict {
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imc-veredict p {
+    font-size: 16px;
+    text-align: center;
 }

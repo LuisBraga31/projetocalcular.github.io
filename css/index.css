@@ -41,6 +41,12 @@ main {
     transform: scale(1.1);
 }
 
+.calculadora-item h3 {
+    color: #5aed83;
+    font-weight: normal;
+    
+}
+
 .calculadora-img img{
     width: 250px;
     border: 1px solid black;

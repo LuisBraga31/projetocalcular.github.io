@@ -4,8 +4,8 @@ let calcularButton = document.querySelector('.buttonImc');
 
 function calcular() {
     
-    resultado.innerText = " Resultado - ";
-    veredito.innerText = " Veredito - ";
+    resultado.innerText = "";
+    veredito.innerText = "";
     let altura = document.querySelector('#altura').value / 100;
     let peso = document.querySelector('#peso').value;
 

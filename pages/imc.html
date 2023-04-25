@@ -35,22 +35,33 @@
             <h3> Calculadora IMC </h3>
             
             <div class="input-imc">
-                <label> Altura [cm]: </label>
-                <input id="altura" type="text">
+                <label> Altura em CM </label>
+                <div class="input-detail">
+                    <input id="altura" type="text" placeholder="Altura"> <span> Cm </span>
+                </div>
             </div>
 
             <div class="input-imc">
-                <label> Peso [Kg]: </label>
-                <input id="peso" type="text">
+                <label> Peso em kg </label>
+                <div class="input-detail">
+                    <input id="peso" type="text" placeholder="Peso"> <span> Kg </span>
+                </div>
             </div>
 
             <div class="button-imc">
                 <button class="buttonImc"> Calcular </button>
             </div>
 
-            <div class="result-imc">
-                <p class="resultado"> Resultado -  </p>
-                <p class="veredito"> Veredito - </p>
+            <div class="infos-imc">
+                <div class="imc-result">
+                    <p class="resultado"> 00,00 </p>
+                    <small> Seu IMC </small>
+                </div>
+                
+                <div class="imc-veredict">
+                    <p class="veredito">  </p>
+                </div>
+
             </div>
 
         </div>

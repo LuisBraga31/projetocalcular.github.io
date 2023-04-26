@@ -1,0 +1,110 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(80vh - 50px);
+}
+
+.convertor-moedas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-color: black;
+    color: #5aed83;
+    border-radius: 20px;
+    padding: 30px 40px;
+    width: 400px;
+    height: 400px;
+}
+
+.convertor-moedas h3 {
+    font-size: 25px;
+    color: #2bf965;
+    margin-bottom: 10px;  
+}
+
+.moedas-seletor {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    width: 100%;
+    background-color: #3f3f46;
+    padding: 0.5rem;
+    border-radius: 8px;
+    margin-top: 3px;
+}
+
+.moedas-seletor input {
+    font-size: 1.3rem;
+    color: #f8fafc;
+    padding: 0 0.5rem;
+    background-color: transparent;
+    border: hidden;  
+}
+
+.moedas-seletor input:focus {
+    outline: 0;
+}
+
+.moedas-seletor select {
+    padding: 0.2em;
+    background-color: transparent;
+    border: 2px solid black;
+    color: #2bf965;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.moedas-seletor option {
+    background-color: #3f3f46;
+}
+
+.moedas-button {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.moedas-button button{
+    width: 100%;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: #2bf965;
+    font-size: 18px;
+}
+
+.moedas-button button:hover {
+    transform: scale(1.05);
+}
+
+.moedas-infos {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 10px 0px;
+    flex-direction: column;
+    gap: 20px;
+    border-top: 0.01em solid lightgray;
+
+}
+
+.moedas-infos p {
+    font-size: 30px;
+}
+
+/*
+.valorReal {
+    display: none;
+}
+
+.valor1 {
+    display: none;
+}
+
+.valor2 {
+    display: none;
+}
+*/

@@ -23,9 +23,10 @@ header {
     padding: 10px;
 }
 
-.header-logo img {
-    width: 20vw;
-    height: 13vh;
+.header-logo h1 {
+    color: #5aed83;
+    font-size: 32px;
+    padding: 20px 0px;
 }
 
 .header-nav {

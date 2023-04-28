@@ -1,0 +1,21 @@
+@media (max-width: 426px) {
+
+    main {
+        height: calc(120vh - 50px);
+    }
+    
+    .main_index {
+        height: calc(260vh - 50px);
+    }
+    
+    .nav-itens {
+        gap: 50px;
+    }
+
+    .calculadoras {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+

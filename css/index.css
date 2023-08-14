@@ -57,9 +57,9 @@ main {
     display: flex;
     flex-direction: column;
     gap: 60px;
-    justify-content: center;
+    padding-top: 40px;
     align-items: center;
-    background-color: rgb(70, 70, 70);
+    background-color: rgb(42, 42, 42);
 }
 
 .section-aboutme h2 {
@@ -71,30 +71,26 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 150px;
 }
 
 .rede-item {
-    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
 }
 
-.rede-item p {
-    font-size: 26px;
+.rede-item a {
+    font-size: 3.1rem;
     color: black;
 }
 
-.rede-item img {
-    width: 50px;
-    height: 50px;
-    border-radius: 50px;
-    cursor: pointer;
-    transition: all 1s ease;
+.rede-item i {
+    transition: all 0.5s ease-in;
 }
 
-.rede-item img:hover {
-    transform: rotate(360deg);
+.rede-item i:hover {
+    transform: scale(1.1);
+    color: #5aed83;
 }

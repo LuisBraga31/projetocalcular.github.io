@@ -2,7 +2,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: calc(80vh - 50px);
+    height: calc(90vh - 50px);
 }
 
 .convertor-moedas {

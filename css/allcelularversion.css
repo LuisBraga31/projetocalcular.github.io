@@ -1,12 +1,4 @@
 @media (max-width: 426px) {
-
-    main {
-        height: calc(120vh - 50px);
-    }
-    
-    .main_index {
-        height: calc(200vh - 50px);
-    }
     
     .nav-itens {
         gap: 50px;
@@ -17,9 +9,6 @@
         flex-direction: column;
     }
 
-    .section-aboutme {
-        height: 40%;
-    }
 
     .redes {
         flex-direction: column;

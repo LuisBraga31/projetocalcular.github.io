@@ -64,7 +64,7 @@ main {
 
 /* FOOTER */
 
-.footer {
+footer {
     width: 100%;
     padding: 0.3rem;
     text-align: center;
@@ -72,6 +72,6 @@ main {
     background-color: black;
 }
 
-.footer small {
+footer small {
     color: white;
 }

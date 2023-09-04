@@ -11,6 +11,7 @@ Projeto criado para apresentar diferentes tipos de calculadoras (Ex: calculadora
 * HTML 5
 * CSS 3
 * JavaScript
+* Typescript
 
 ## Links
   - Deploy on Pages: https://luisbraga31.github.io/projetocalcular.github.io/

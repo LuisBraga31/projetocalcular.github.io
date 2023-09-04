@@ -10,7 +10,6 @@ Projeto criado para apresentar diferentes tipos de calculadoras (Ex: calculadora
 
 * HTML 5
 * CSS 3
-* JavaScript
 * Typescript
 
 ## Links
